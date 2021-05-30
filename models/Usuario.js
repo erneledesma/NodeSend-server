@@ -9,15 +9,15 @@ const usuariosSchema = new Schema({
         unique: true,
         lowercase: true
     },
-        nombre: {
-            type: String,
-            required: true,
-            trim: true
+     nombre: {
+         type: String,
+         required: true,
+         trim: true
         },
-        password: {
-            type: String,
-            required: true,
-            trim: true
+    password: {
+         type: String,
+         required: true,
+         trim: true
         }    
 });
 
